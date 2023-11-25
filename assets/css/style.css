@@ -221,10 +221,6 @@ nav {
     margin-top: -1px;
 }
 
-.mb-90 {
-    margin-bottom: 90px;
-}
-
 .mb-200 {
     margin-bottom: 200px;
 }
@@ -366,6 +362,7 @@ nav {
     background-color: #031227;
     box-shadow: none;
 }
+
 .show {
     right: 0 !important;
 }
@@ -426,7 +423,7 @@ nav {
 }
 
 @media (max-width:992px) {
-    
+
     .menuList {
         flex-direction: column;
         justify-content: center;
@@ -436,7 +433,7 @@ nav {
         width: 100%;
         height: 100%;
         z-index: 2;
-        background-color:#031227;
+        background-color: #031227;
         transition: all 200ms linear;
     }
 
@@ -449,8 +446,7 @@ nav {
         z-index: 4;
         position: relative;
     }
-
-
+    
     .menuIcon span {
         height: 3px;
         width: 100%;
