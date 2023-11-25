@@ -130,10 +130,20 @@ nav {
     padding: 16px 40px;
     border: 1px solid #FFF;
 }
+.home-btn:hover{
+    background: transparent;
+    color: #FFF;
+}
 
 .btn-2 {
     padding: 10px 20px;
     border-radius: 45.5px;
+    z-index: 2;
+    border: 1px solid #FFF;
+}
+.btn-2:hover{
+    background: transparent !important;
+    color: #FFF;
 }
 
 .h-230 {
@@ -446,7 +456,7 @@ nav {
         z-index: 4;
         position: relative;
     }
-    
+
     .menuIcon span {
         height: 3px;
         width: 100%;
