@@ -366,7 +366,9 @@ nav {
     background-color: #031227;
     box-shadow: none;
 }
-
+.show {
+    right: 0 !important;
+}
 
 
 @media screen and (max-width: 768px) {
@@ -424,10 +426,7 @@ nav {
 }
 
 @media (max-width:992px) {
-    nav a {
-        color: black;
-    }
-
+    
     .menuList {
         flex-direction: column;
         justify-content: center;
@@ -441,17 +440,13 @@ nav {
         transition: all 200ms linear;
     }
 
-    .menuList.show {
-        right: 0;
-    }
-
     .menuIcon {
         height: 25px;
         width: 30px;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        z-index: 9;
+        z-index: 4;
         position: relative;
     }
 
