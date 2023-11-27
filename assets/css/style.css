@@ -20,7 +20,7 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 1080px;
+    /* height: 1080px; */
 }
 
 .bg-footer {
@@ -127,7 +127,7 @@ nav {
 .home-btn {
     border-radius: 45.5px;
     background: #FFF;
-    padding: 16px 40px;
+    padding: 10px 20px;
     border: 1px solid #FFF;
 }
 .home-btn:hover{
@@ -426,10 +426,23 @@ nav {
     .mt-141 {
         margin-top: 141px !important;
     }
+    .nav-btn{
+        padding: 16px 40px;
+    }
 
     .mt-63 {
         margin-top: 63px !important;
     }
+}
+@media (min-width:992px) {
+    .bg-horror{
+        height: 1080px;
+    }
+    .min-vh-lg-100{
+        min-height: 100vh;
+    }
+   
+    
 }
 
 @media (max-width:992px) {
