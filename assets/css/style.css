@@ -299,7 +299,7 @@ nav {
     width: 6px;
     background-image: url(../images/Line\ 3.png);
     top: 6%;
-    bottom: 18%;
+    bottom: 19%;
     left: 50%;
     margin-left: -3px;
 }
@@ -378,6 +378,7 @@ nav {
     background-color: #031227;
     box-shadow: none;
 }
+
 
 .show {
     right: 0 !important;
