@@ -224,17 +224,15 @@ nav {
     margin-top: -2px;
 }
 
-
+.mb-60{
+    margin-bottom: 60px;
+}
 .mt-21 {
     margin-top: 21px;
 }
 
 .mb-138 {
     margin-bottom: 138px;
-}
-
-.mt-02px {
-    margin-top: -1px;
 }
 
 .mb-200 {
@@ -361,15 +359,33 @@ nav {
 }
 
 .accordion-body {
-    background: #000A1A;
+    background: transparent;
     padding: 20px 0 0 30px;
 
+}
+.accordion-button::after {
+    flex-shrink: 0;
+    width: var(--bs-accordion-btn-icon-width);
+    height: var(--bs-accordion-btn-icon-width);
+    margin-left: auto;
+    content: "";
+    background-image: url(../images/Vector\ \(1\).svg);
+    background-repeat: no-repeat;
+    background-size: var(--bs-accordion-btn-icon-width);
+    transition: var(--bs-accordion-btn-icon-transition);
+}
+.accordion-button:not(.collapsed)::after {
+    background-image:url(../images/Vector\ \(1\).svg);
+    transform: var(--bs-accordion-btn-icon-transform);
 }
 
 .accordion {
     max-width: 830px;
     width: 100%;
-    --bs-accordion-bg: #000A1A;
+    --bs-accordion-bg: transparent;
+}
+.accordion-button:focus{
+    box-shadow: none;
 }
 
 
@@ -464,8 +480,8 @@ nav {
         flex-direction: column;
         justify-content: space-between;
         z-index: 6;
-        right: 10%;
-        top: 5%;
+        right: 3%;
+        top: 2%;
         position: fixed;
     }
 
